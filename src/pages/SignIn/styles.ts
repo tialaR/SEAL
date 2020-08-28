@@ -1,7 +1,6 @@
-import { Platform } from 'react-native';
-import { getBottomSpace } from 'react-native-iphone-x-helper';
+import {Platform} from 'react-native';
 import styled from 'styled-components/native';
-import { colors } from '../../styles/colors';
+import {colors} from '../../styles/colors';
 
 export const Container = styled.ScrollView.attrs({
   keyboardShouldPersistTaps: 'handled',
@@ -12,7 +11,7 @@ export const Container = styled.ScrollView.attrs({
   flex: 1;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 70px;
+  padding-top: 50px;
 `;
 
 export const Logo = styled.Image`

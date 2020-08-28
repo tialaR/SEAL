@@ -1,4 +1,4 @@
-import { Platform } from 'react-native';
+import {Platform} from 'react-native';
 import styled from 'styled-components/native';
 
 export const Container = styled.ScrollView.attrs({
@@ -10,7 +10,7 @@ export const Container = styled.ScrollView.attrs({
   flex: 1;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 70px;
+  padding-top: 50px;
 `;
 
 export const Logo = styled.Image`

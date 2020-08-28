@@ -1,8 +1,8 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/Feather';
-import { colors } from '../../styles/colors';
+import {colors} from '../../styles/colors';
 
-import { AvatarContainer, Avatar, AvatarDefault, CameraButton } from './styles';
+import {AvatarContainer, Avatar, AvatarDefault, CameraButton} from './styles';
 
 interface AvatarProfileProps {
   avatar: string;
@@ -15,7 +15,7 @@ const AvatarProfile: React.FC<AvatarProfileProps> = ({
 }: AvatarProfileProps) => {
   return (
     <AvatarContainer>
-      {avatar ? <Avatar source={{ uri: avatar }} /> : <AvatarDefault />}
+      {avatar ? <Avatar source={{uri: avatar}} /> : <AvatarDefault />}
       <CameraButton onPress={onChangeAvatar}>
         <Icon name="camera" size={17} color={colors.white} />
       </CameraButton>

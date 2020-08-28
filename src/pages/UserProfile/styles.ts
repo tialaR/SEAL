@@ -1,6 +1,6 @@
-import { Platform } from 'react-native';
+import {Platform} from 'react-native';
 import styled from 'styled-components/native';
-import { colors } from '../../styles/colors';
+import {colors} from '../../styles/colors';
 
 export const Container = styled.ScrollView.attrs({
   keyboardShouldPersistTaps: 'handled',
@@ -18,5 +18,5 @@ export const ContainerButtons = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 30px;
 `;
